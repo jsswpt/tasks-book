@@ -1,0 +1,25 @@
+.reason {
+  text-transform: lowercase;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.error {
+  color: #f05454;
+}
+
+.success {
+  color: #3f88c5;
+}
+
+.close {
+  color: #222831;
+}

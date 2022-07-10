@@ -1,0 +1,40 @@
+.icon {
+  height: 18px;
+  width: 18px;
+  color: #f9f9f9;
+  transition: 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.icon:active {
+  transition: 0.1s;
+  transform: scale(0.9);
+}
+
+.trash {
+  height: 22px;
+  width: 22px;
+  color: #f05454;
+}
+
+.title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #3f88c5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.block_options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

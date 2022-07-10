@@ -1,0 +1,68 @@
+.task {
+  padding: 15px;
+  background: #2c3440;
+  border: 1px solid rgba(249, 249, 249, 0.2);
+  border-radius: 10px;
+}
+
+.task_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.title {
+  width: 100%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #f9f9f9;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.isDone {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.warning {
+  font-family: "Nunito";
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dates {
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.date {
+  font-family: "Nunito";
+  font-size: 8px;
+  font-weight: 300;
+  color: white;
+}

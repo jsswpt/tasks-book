@@ -1,0 +1,26 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #00af91;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.checkbox:hover {
+  border: 1px solid white;
+}
+
+.checkbox:hover .check {
+  color: white;
+}
+
+.check {
+  width: 15px;
+  height: 15px;
+  color: #3f88c5;
+  transition: 0.2s;
+}

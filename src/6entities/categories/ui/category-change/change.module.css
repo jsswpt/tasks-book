@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #3f88c5;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #222831;
+}
+
+.subtitle_addon {
+  font-weight: 600;
+
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
